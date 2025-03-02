@@ -4,8 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ Section</title>
+    <!-- tailwindcss -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <h1>This is onther Page</h1>
+    <header class="bg-white p-8 rounded-md w-5/6 m-auto">
+        <div class="center flex justify-between">
+            <div class="flex">
+                <div>
+                    <img src="asset/logo.png" alt="" srcset="">
+                </div>
+                <div>
+                    <a class="btn btn-ghost text-xl">Dev<span class="text-2xl">Borad</span></a>
+                </div>
+            </div>
+            <button id="back" class="btn btn-primary">Go Back</button>
+        </div>
+    </header>
+
+    <main class="bg-gray-100">
+        
+        <section class="w-5/6 mx-auto space-y-8">
+            <h1 class="mx-auto center text-3xl">Blogs</h1>
+            <div class="bg-white rounded-lg p-2">
+                <h3 class="text-xl font-bold">Question-1: What are the different ways to select an element in the DOM?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat sequi amet repudiandae accusantium? Vitae culpa optio sapiente modi. Debitis vero necessitatibus odit earum porro, error blanditiis quisquam id perspiciatis delectus.</p>
+            </div>
+            <div class="bg-white rounded-lg p-2">
+                <h3 class="text-xl font-bold">Question-1: What are the different ways to select an element in the DOM?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat sequi amet repudiandae accusantium? Vitae culpa optio sapiente modi. Debitis vero necessitatibus odit earum porro, error blanditiis quisquam id perspiciatis delectus.</p>
+            </div>
+            
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>

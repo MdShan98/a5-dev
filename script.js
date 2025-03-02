@@ -2,7 +2,8 @@
 
 const colorChange = document.getElementById('color-change');
 colorChange.addEventListener('click',function(){
-    const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+    const colors = ["red", "blue", "green", "yellow", "orange", "purple", "pink", "gray", "golden"];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
     document.body.style.backgroundColor = randomColor;
 });
 
@@ -100,5 +101,7 @@ window.onload = function() {
 //       window.location.href = "index.html";
 //     });
 //   };
+// const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+    // document.body.style.backgroundColor = randomColor;
 
 
